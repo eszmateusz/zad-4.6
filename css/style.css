@@ -1,5 +1,20 @@
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 0 20px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+*, a {
+  text-decoration: none;
+  color: white;
+}
+
 /* Navbar */
-.navbar, .splash {
+.navbar, .splash-inner {
   background-image: url("https://cdn.pixabay.com/photo/2014/05/03/00/46/gadgets-336635_1280.jpg");
 }
 
@@ -8,6 +23,7 @@
   height: 100vh;
   position: relative;
   background-position: center center;
+  background-image: url("https://cdn.pixabay.com/photo/2014/05/03/00/46/gadgets-336635_1280.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
