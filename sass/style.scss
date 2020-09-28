@@ -1,0 +1,53 @@
+/* Navbar */
+
+.navbar, .splash {
+    background-image: url("https://cdn.pixabay.com/photo/2014/05/03/00/46/gadgets-336635_1280.jpg");
+}
+
+/* Splash */
+
+.splash {
+    height: 100vh;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.splash-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.page-title {
+    font-family: "DM Sans", sans-serif;
+    color: #yellow;
+    font-weight: 900;
+    font-size: 55px;
+    color: #blue;
+    text-shadow: 2px 2px 1px black;
+    margin: 48px 0 0 0;
+    position: relative;
+}
+
+.page-title::after {
+    position: absolute;
+    content: '';
+    bottom: -24px;
+    left: 50%;
+    width: 250px;
+    height: 5px;
+    transform: translateX(-50%);
+    background: green;
+}
+
+.page-subtitle {
+    color: #yellow;
+    font-family: "DM Sans", sans-serif;
+    font-size: 40px;    
+    text-shadow: 2px 2px 1px black;
+    margin: 48px 0 0 0;
+}
