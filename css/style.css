@@ -121,7 +121,7 @@ section {
   text-align: right;
 }
 
-.splash, .navigation {
+.navigation, .splash {
   background: url("https://cdn.pixabay.com/photo/2018/10/28/17/48/castle-3779404_1280.jpg");
 }
 
